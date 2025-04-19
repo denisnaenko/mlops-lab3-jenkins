@@ -1,7 +1,7 @@
 import pandas as pd
 
 def download_data():
-    df = pd.read_csv('https://raw.githubusercontent.com/denisnaenko/mlops-lab3-jenkins/refs/heads/main/automobile_prices_economics_2019_2023.csv', delimiter=",")
+    df = pd.read_csv('https://raw.githubusercontent.com/denisnaenko/cars_trends_dataset/refs/heads/main/automobile_prices_economics_2019_2023.csv', delimiter=",")
     df.to_csv("cars_trends.csv", index=False)
     return df
 
