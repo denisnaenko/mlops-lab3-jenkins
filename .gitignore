@@ -1,1 +1,5 @@
-.lab3_env
+/.lab3_env
+/mlruns
+
+*.csv
+*.pkl
